@@ -58,19 +58,86 @@
     <Compile Include="Glavnoe.Designer.cs">
       <DependentUpon>Glavnoe.cs</DependentUpon>
     </Compile>
+    <Compile Include="Katalog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Katalog.Designer.cs">
+      <DependentUpon>Katalog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Klients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Klients.Designer.cs">
+      <DependentUpon>Klients.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registracia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registracia.Designer.cs">
+      <DependentUpon>Registracia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seria.Designer.cs">
+      <DependentUpon>Seria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SotrudD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SotrudD.Designer.cs">
+      <DependentUpon>SotrudD.cs</DependentUpon>
+    </Compile>
     <Compile Include="Zacaz.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Zacaz.Designer.cs">
       <DependentUpon>Zacaz.cs</DependentUpon>
     </Compile>
+    <Compile Include="ZacazSpisok.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZacazSpisok.Designer.cs">
+      <DependentUpon>ZacazSpisok.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_база_данных_курсача_ауф_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_база_данных_курсача_ауф_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_база_данных_курсача_ауф_DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_база_данных_курсача_ауф_DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_база_данных_курсача_ауф_DataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_база_данных_курсача_ауф_DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_база_данных_курсача_ауф_DataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_база_данных_курсача_ауф_DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_база_данных_курсача_ауф_DataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_база_данных_курсача_ауф_DataSet4.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Glavnoe.resx">
       <DependentUpon>Glavnoe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Katalog.resx">
+      <DependentUpon>Katalog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Klients.resx">
+      <DependentUpon>Klients.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -81,8 +148,20 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Registracia.resx">
+      <DependentUpon>Registracia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seria.resx">
+      <DependentUpon>Seria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SotrudD.resx">
+      <DependentUpon>SotrudD.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Zacaz.resx">
       <DependentUpon>Zacaz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZacazSpisok.resx">
+      <DependentUpon>ZacazSpisok.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -93,6 +172,61 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="_база_данных_курсача_ауф_DataSet.xsc">
+      <DependentUpon>_база_данных_курсача_ауф_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_база_данных_курсача_ауф_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_база_данных_курсача_ауф_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_база_данных_курсача_ауф_DataSet.xss">
+      <DependentUpon>_база_данных_курсача_ауф_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_база_данных_курсача_ауф_DataSet1.xsc">
+      <DependentUpon>_база_данных_курсача_ауф_DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="_база_данных_курсача_ауф_DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_база_данных_курсача_ауф_DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_база_данных_курсача_ауф_DataSet1.xss">
+      <DependentUpon>_база_данных_курсача_ауф_DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="_база_данных_курсача_ауф_DataSet2.xsc">
+      <DependentUpon>_база_данных_курсача_ауф_DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="_база_данных_курсача_ауф_DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_база_данных_курсача_ауф_DataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_база_данных_курсача_ауф_DataSet2.xss">
+      <DependentUpon>_база_данных_курсача_ауф_DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="_база_данных_курсача_ауф_DataSet3.xsc">
+      <DependentUpon>_база_данных_курсача_ауф_DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="_база_данных_курсача_ауф_DataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_база_данных_курсача_ауф_DataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_база_данных_курсача_ауф_DataSet3.xss">
+      <DependentUpon>_база_данных_курсача_ауф_DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="_база_данных_курсача_ауф_DataSet4.xsc">
+      <DependentUpon>_база_данных_курсача_ауф_DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="_база_данных_курсача_ауф_DataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_база_данных_курсача_ауф_DataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_база_данных_курсача_ауф_DataSet4.xss">
+      <DependentUpon>_база_данных_курсача_ауф_DataSet4.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
